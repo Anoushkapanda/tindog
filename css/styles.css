@@ -1,0 +1,190 @@
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: Ubuntu;
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* sections */
+.coloured-section {
+    background-color: #ff4c68;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* title-section */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* tindog image */
+.tindog-pic {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .tindog-pic {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media (max-width: 992px) {
+  .tindog-pic {
+    width: 50%
+  }
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* features section */
+#features {
+
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+/* features icon */
+.d-icon {
+  width: 100%;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.d-icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* press-section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.dog-name {
+  font-size: 1.5rem;
+}
+
+.pricing-column {
+  padding: 4% 2%;
+}
+
+/* call to action */
+#cta {
+  line-height: 1.5;
+}
+
+.cta-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* footer */
+#footer {
+  padding: 3% 0;
+}
+
+.social-icons {
+  padding: 0 2%;
+}
